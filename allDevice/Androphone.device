@@ -15,8 +15,8 @@
 			message : String
 		},
 		returnColor : {
-			code_ color : String,
-			code_retour: boolean
+			code_color : String,
+			code_retour: Boolean
 		}
 	},
 	events : {
