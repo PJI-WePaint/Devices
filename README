@@ -1,1 +1,12 @@
 ## File Device for paint 
+
+Pour générer fichier : 
+java -jar minyGenerator.jar 
+
+Il demande le dossier ou se trouve les fichier devices 
+
+Ensuite il demande ou mettre les fichier générer, choisir un dossier nommé gen/ si mis dans le dossier Devices. Si mis dans le même dossier.
+
+*NE SURTOUT PAS PUSHER LES FICHIERS GENERER !!*
+
+
