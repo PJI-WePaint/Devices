@@ -1,0 +1,47 @@
+{ 
+	name : "Androphone",
+	package : "androphone",
+	type : "Device",
+	constants : {
+	  object : '"Androphone"',
+	  location : null,
+	  locationParams : null
+	},
+	methods : {
+		vibrate : {
+			position : Integer
+		}, 
+		notification : {
+			message : String
+		}
+	},
+	events : {
+		message : {
+			message : String
+		},
+		qrCode : {
+			content : String
+		},
+		compass : {
+			x : Integer,
+			y : Integer,
+			z : Integer
+		},
+		accelerometer : {
+			x : Integer,
+			y : Integer,
+			z : Integer
+		},
+		light : {
+			lumens : Integer
+		},		
+		gpsLocation : { 
+		  		degrees : Integer,
+		  		minutes : Integer,
+		  		seconds : Integer
+		},
+		textRecognised : {
+			text : String
+		}
+	}
+}

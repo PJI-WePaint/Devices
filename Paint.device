@@ -1,0 +1,29 @@
+{ 
+	name : "Paint",
+	package : "paint",
+	type : "Device",
+	constants : {
+	  object : '"Paint"',
+	  location : null,
+	  locationParams : null
+	},
+	methods : {
+		createObjectServeur : {
+			typeObject : String,
+			idObject: Integer
+
+		},
+		removeObjectServeur:{
+			idObject : Integer
+		}
+	},
+	events : {
+		createObject : {
+			typeObject : String,
+			idObject: Integer
+		},
+		removeObject:{
+			idObject : Integer
+		}
+	}
+}
