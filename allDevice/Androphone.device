@@ -47,6 +47,8 @@
 		textRecognised : {
 			text : String
 		},
+		removeCurrent : {
+		},
 		color : {
 			code_color: String
 		}
