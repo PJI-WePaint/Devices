@@ -15,7 +15,22 @@
 		},
 		removeObjectServeur:{
 			idObject : Integer
-		}
+		},
+		moveObjectServeur:{
+			idObject: Integer,
+			dx : Integer,
+			dy : Integer
+		},
+		joinSessionServeur:{
+			idUser: Integer
+		},
+		changeCurrentServeur:{
+			idUser : Integer,
+			idObject : Integer
+		},
+		quitSessionServeur:{
+			idUser: Integer
+		},
 	},
 	events : {
 		createObject : {
@@ -24,6 +39,21 @@
 		},
 		removeObject:{
 			idObject : Integer
+		},
+		moveObject:{
+			idObject: Integer,
+			dx : Integer,
+			dy : Integer
+		},
+		joinSession:{
+			idUser: Integer
+		},
+		changeCurrent:{
+			idUser: Integer,
+			idObject: Integer
+		},
+		quitSession:{
+			idUser: Integer
 		}
 	}
 }
