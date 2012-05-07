@@ -21,44 +21,44 @@
 	},
 	events : {
 		addObject : {
-			idUser: Integer
+			idUser: Integer,
 			message : String
 		},
 		qrCode : {
-			idUser: Integer
+			idUser: Integer,
 			content : String
 		},
 		compass : {
-			idUser: Integer
+			idUser: Integer,
 			x : Integer,
 			y : Integer,
 			z : Integer
 		},
 		accelerometer : {
-			idUser: Integer
+			idUser: Integer,
 			x : Integer,
 			y : Integer,
 			z : Integer
 		},
 		light : {
-			idUser: Integer
+			idUser: Integer,
 			lumens : Integer
 		},		
 		gpsLocation : { 
-			idUser: Integer
+			idUser: Integer,
 		  	degrees : Integer,
 		  	minutes : Integer,
 		  	seconds : Integer
 		},
 		textRecognised : {
-			idUser: Integer
+			idUser: Integer,
 			text : String
 		},
 		removeCurrent : {
 			idUser: Integer
 		},
 		color : {
-			idUser: Integer
+			idUser: Integer,
 			code_color: String
 		},
 		joinSessionPaint :{
